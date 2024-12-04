@@ -2,6 +2,8 @@ name: JSON Validation
 
 on:
   pull_request:
+    branches:
+      - main
     paths:
       - '**.json'
 
